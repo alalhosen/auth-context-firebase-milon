@@ -14,19 +14,19 @@ const router = createBrowserRouter([
     element: <Root></Root>,
     children: [
       {
-path: "/",
-element: <Home></Home>
+        path: "/",
+        element: <Home></Home>,
       },
       {
         path: "/login",
-        element: <Login></Login>
+        element: <Login></Login>,
       },
       {
         path: "/register",
-        element: <Register></Register>
-      }
-    ]
-  }
+        element: <Register></Register>,
+      },
+    ],
+  },
 ]);
 
 createRoot(document.getElementById("root")).render(
